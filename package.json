@@ -1,6 +1,6 @@
 {
   "name": "string-squish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Removes all terminal whitespace and replaces all censecutive whitespace from a String.",
   "homepage": "https://github.com/chrissrogers/string-squish",
   "main": "index.js",
