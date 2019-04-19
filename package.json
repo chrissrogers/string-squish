@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Removes all terminal whitespace and replaces all censecutive whitespace from a String.",
   "main": "index.js",
-  "module": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
     "string",
@@ -15,7 +14,7 @@
   ],
   "author": "Christopher Rogers <chrissrogers@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "esm": "^3.2.22"
+  "devDependencies": {
+    "mocha": "^6.1.4"
   }
 }
