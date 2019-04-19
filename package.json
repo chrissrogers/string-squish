@@ -1,0 +1,21 @@
+{
+  "name": "string-squish",
+  "version": "1.0.0",
+  "description": "Removes all terminal whitespace and replaces all censecutive whitespace from a String.",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string",
+    "squish",
+    "whitespace",
+    "pad"
+  ],
+  "author": "Christopher Rogers <chrissrogers@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.22"
+  }
+}
