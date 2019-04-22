@@ -1,4 +1,4 @@
-const CONSECUTIVE_SPACES = /\s+/g;
+var CONSECUTIVE_SPACES = /\s+/g;
 
 module.exports = function squish (string) {
   if (typeof string !== 'string') throw `Invalid 'string'. Expected String, got ${typeof string}`;
